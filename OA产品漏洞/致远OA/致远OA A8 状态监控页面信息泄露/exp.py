@@ -12,6 +12,10 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 漏洞影响:致远OA A8-m
 
 后台监控的默认密码：WLCCYBD@SEEYON
+登录后通过如下url获得一些敏感信息
+/seeyon/management/status.jsp
+/seeyon/logs/login.log
+/seeyon/logs/v3x.log
 """
 
 def POC_1(target_url):
